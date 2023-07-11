@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imgs/Iconos/prueba.png" type="image/x-icon">
+    <title>La Mala</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Volkhov&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NABVAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ms-4 me-4">
+            <a class="navbar-brand" href="#">
+                <img src="Imgs/Iconos/logo (1).png" style="width:7rem">
+            </a>
+            <!-- <div class="vertical-line"></div> -->
+            <div class="social-navbar">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-end me-3" aria-current="page" href="#"
+                            id="textos">TEXTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-end" href="#" id="queeslamala">QUE ES LA MALA?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+
+    <div id="carouselExample" class="carousel slide" id="slyder">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide-background" style="background-image: url('Imgs/1.jpg')">
+                    <div class="slide-content">
+                        <div class="info-slide" id="info-slide-1">
+                            <p class="subtitulo">ALGO DE LO QUE TENEMOS QUE HABLAR</p>
+                            <a href="">
+                                <h1 class="titulo-principal">LAS HORAS DEL DIA</h1>
+                            </a>
+                            <p class="autores">Texto:
+                                <a href="">
+                                    Autor
+                                </a> / Fotos:
+                                <a href="">
+                                    Autora
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-background" style="background-image: url('Imgs/2.jpg')">
+                    <div class="slide-content">
+                        <div class="info-slide" id="info-slide-2">
+                            <p class="subtitulo">ALGO DE LO QUE TENEMOS QUE HABLAR</p>
+                            <a href="">
+                                <h1 class="titulo-principal">LAS HORAS DEL DIA</h1>
+                            </a>
+                            <p class="autores">Texto:
+                                <a href="">
+                                    Autor
+                                </a> / Fotos:
+                                <a href="">
+                                    Autora
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-background" style="background-image: url('Imgs/3.jpg')">
+                    <div class="slide-content">
+                        <div class="info-slide" id="info-slide-3">
+                            <p class="subtitulo">ALGO DE LO QUE TENEMOS QUE HABLAR</p>
+                            <a href="">
+                                <h1 class="titulo-principal">LAS HORAS DEL DIA</h1>
+                            </a>
+                            <p class="autores">Texto:
+                                <a href="">
+                                    Autor
+                                </a> / Fotos:
+                                <a href="">
+                                    Autora
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- PBLI -->
+
+    <div class="container">
+        <div class="publis mt-5 mb-5">
+            <img src="Imgs/Publis/banner01.jpg" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- TEXTOS -->
+
+    <div class="container">
+
+        <div class="row justify-content-between">
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-violeta">ENSAYO</p>
+                        <img src="Imgs/1jpg.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
+                    <div class="card-separator-violeta">
+                        <img src="Imgs/Iconos/share.svg" onclick="showSocial(this)">
+                        <img src="Imgs/Iconos/face-purple.svg" class="aditional-icon additional-icon-1">
+                        <img src="Imgs/Iconos/whatsapp-purple.svg" class="aditional-icon additional-icon-2">
+                    </div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-verde">ENSAYO</p>
+                        <img src="Imgs/nota2.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
+                    <div class="card-separator-verde">
+                        <button onclick="showSocial()">
+                            <img src="Imgs/Iconos/share.svg">
+                        </button> 
+                    </div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-violeta">ENSAYO</p>
+                        <img src="Imgs/nota3.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
+                    <div class="card-separator-violeta">
+                        <button onclick="showSocial()">
+                            <img src="Imgs/Iconos/share.svg">
+                        </button>                      
+                    </div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <!-- FOOTER -->
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid ms-4 me-4">
+                <a class="navbar-brand" href="#"><img src="Imgs/Iconos/logo (1).png" style="width:10rem" alt="logo"></a>
+                <div class="footer-content">
+                    <div class="vertical-line-footer me-3"></div>
+                    <div style="color:#E6E7E8">
+                        <h3 class="mt-1">REDES</h3>
+                        <div class="iconos-footer">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
