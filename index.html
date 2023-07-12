@@ -34,7 +34,7 @@
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -44,6 +44,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active fw-bold text-end" href="#" id="queeslamala">QUE ES LA MALA?</a>
+                    </li>
+                    <li>
+                        <div class="colapse-icons me-2">
+                            <a href="#"><i class="fa-brands fa-facebook me-3"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -127,7 +133,7 @@
 
     <!-- PBLI -->
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="publis mt-5 mb-5">
             <img src="Imgs/Publis/banner01.jpg" class="img-fluid">
         </div>
@@ -148,9 +154,6 @@
                     </div>
 
                     <div class="card-separator-violeta">
-                        <img src="Imgs/Iconos/share.svg" onclick="showSocial(this)">
-                        <img src="Imgs/Iconos/face-purple.svg" class="aditional-icon additional-icon-1">
-                        <img src="Imgs/Iconos/whatsapp-purple.svg" class="aditional-icon additional-icon-2">
                     </div>
 
                     <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
@@ -164,6 +167,11 @@
                             <a href="">Autor</a> / Fotos:
                             <a href="">Autora</a>
                         </p>
+                        <div class="share-icons-violeta">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,11 +184,7 @@
                         <img src="Imgs/nota2.jpg" class="card-img-top rounded-top" alt="...">
                     </div>
 
-                    <div class="card-separator-verde">
-                        <button onclick="showSocial()">
-                            <img src="Imgs/Iconos/share.svg">
-                        </button> 
-                    </div>
+                    <div class="card-separator-verde"></div>
 
                     <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
                         <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
@@ -193,6 +197,11 @@
                             <a href="">Autor</a> / Fotos:
                             <a href="">Autora</a>
                         </p>
+                        <div class="share-icons-verde">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,10 +214,41 @@
                         <img src="Imgs/nota3.jpg" class="card-img-top rounded-top" alt="...">
                     </div>
 
+                    <div class="card-separator-violeta"></div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                        <div class="share-icons-violeta">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-between mt-5">
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-violeta">ENSAYO</p>
+                        <img src="Imgs/Succession_01Port-1536x864.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
                     <div class="card-separator-violeta">
-                        <button onclick="showSocial()">
-                            <img src="Imgs/Iconos/share.svg">
-                        </button>                      
                     </div>
 
                     <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
@@ -222,23 +262,94 @@
                             <a href="">Autor</a> / Fotos:
                             <a href="">Autora</a>
                         </p>
+                        <div class="share-icons-violeta">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-verde">ENSAYO</p>
+                        <img src="Imgs/Marcela_Turati_Hugo-Horita-1536x864.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
+                    <div class="card-separator-verde"></div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                        <div class="share-icons-verde">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+
+                    <div id="img-card">
+                        <p class="card-overlay-violeta">ENSAYO</p>
+                        <img src="Imgs/Soledad-Gago_Maximiliano-Amici-1536x864.jpg" class="card-img-top rounded-top" alt="...">
+                    </div>
+
+                    <div class="card-separator-violeta"></div>
+
+                    <div class="card-body rounded-bottom" style="background-color:#252325" id="info-card">
+                        <p class="card-subtitle">TRENQUE LAUQUEN, LA NUEVA PELÍCULA DE LAURA CITARELLA</p>
+                        <a href="">
+                            <h5 class="card-title">LA CIUDAD DE LOS PIBES SIN CALMA</h5>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-autores">Texto:
+                            <a href="">Autor</a> / Fotos:
+                            <a href="">Autora</a>
+                        </p>
+                        <div class="share-icons-violeta">
+                            <img src="Imgs/Iconos/facebook-white.svg">
+                            <img src="Imgs/Iconos/gmail-white.svg">
+                            <img src="Imgs/Iconos/whatsapp-blanco.svg">
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
+  
+    </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    <!-- PUBLI 2 -->
 
+    <div class="container-fluid">
+        <div class="publis mt-5 mb-5">
+            <img src="Imgs/Publis/banner02.jpg" class="img-fluid">
+        </div>
+    </div>
 
+    <div class="entrevistas">
+        <h1 class="text-center" id="entrevistas">ENTREVISTAS</h1>
+    </div>
 
-        <!-- FOOTER -->
+    <!-- FOOTER -->
 
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark" id="footer">
             <div class="container-fluid ms-4 me-4">
                 <a class="navbar-brand" href="#"><img src="Imgs/Iconos/logo (1).png" style="width:10rem" alt="logo"></a>
                 <div class="footer-content">
