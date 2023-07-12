@@ -53,6 +53,28 @@
     text-shadow: 3px 3px 4px #252325;
   }
 
+  .colapse-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .colapse-icons a {
+    color: #252325;
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 991px) {
+    .social-navbar {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .colapse-icons {
+      display: none;
+    }
+  }
+
 /* DIVIDERS */
 
 .vertical-line {
@@ -127,6 +149,54 @@ text-align: center;
   color: #FFE900;
 }
 
+@media (max-width: 424px) {
+  .subtitulo {
+    font-size: 0.6rem;
+  }
+  .titulo-principal {
+    font-size: 3rem;
+  }
+  .autores {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .subtitulo {
+    font-size: 0.8rem;
+  }
+  .titulo-principal {
+    font-size: 4rem;
+  }
+  .autores {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subtitulo {
+    font-size: 1.1rem;
+  }
+  .titulo-principal {
+    font-size: 6rem;
+  }
+  .autores {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subtitulo {
+    font-size: 1.3rem;
+  }
+  .titulo-principal {
+    font-size: 8rem;
+  }
+  .autores {
+    font-size: 2rem;
+  }
+}
+
 /* .carousel-control-next-icon {
   background-image: url("../Imgs/Iconos/arrow-right.svg");
 }
@@ -191,27 +261,11 @@ text-align: center;
   margin: 0px;
 }
 
-.card-separator-violeta img {
-  width: 2rem;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-}
-
 .card-separator-verde {
   position: relative;
   height: 0.6rem;
   background-color: #258D19;
   margin: 0px;
-}
-
-.card-separator-verde img {
-  width: 2rem;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
 }
 
 #img-card {
@@ -246,20 +300,149 @@ text-align: center;
   z-index: 1;
 }
 
-additional-icon {
-  display: none; /* Ocultar los iconos adicionales inicialmente */
+.share-icons-violeta {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.additional-icon-1 {
-  position: absolute;
-  top: 10px;
-  left: 80%;
+.share-icons-violeta img {
+  width: 2rem;
 }
 
-.additional-icon-2 {
-  position: absolute;
-  top: 10px;
-  left: 70%;
+.share-icons-verde {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.share-icons-verde img {
+  width: 2rem;
+}
+
+@media (max-width: 767px) {
+  card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* ENTREVISTAS */
+
+#entrevistas {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 8rem;
+  color: #E6E7E8;
+  text-shadow: 17px 17px 8px #252325;
+}
+
+.entrevistas {
+  background-color: #9966CC;
+}
+
+@media (max-width: 424px) {
+  #entrevistas {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 425px) {
+  #entrevistas {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #entrevistas {
+    font-size: 8rem;
+  }
+}
+
+
+/* TEXTOS */
+
+.textos {
+  background-color: #FFE900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.titulo-textos {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: #252325;
+  text-align: center;
+  margin: 0;
+  /* text-shadow: 15px 15px 20px; */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.button-container button {
+  font-family: 'Oswald', sans-serif;
+  border-radius: 7px;
+}
+
+.button-container button:hover {
+  background-color: #252325;
+  color: #FFE900;
+}
+
+@media (max-width: 424px) {
+  .button-container button {
+    font-size: 10px;
+    margin: 2px;
+  }
+  .titulo-textos {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .button-container button {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .titulo-textos {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .titulo-textos {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .button-container button {
+    font-size: 18px;
+    margin: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .titulo-textos {
+    font-size: 6.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .button-container button {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .titulo-textos {
+    font-size: 6.5rem;
+  }
 }
 
 /* FUENTES */
@@ -278,6 +461,10 @@ additional-icon {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background-color: #E6E7E8;
 }
 
 /* PUBLIS */
