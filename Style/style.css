@@ -318,10 +318,8 @@ text-align: center;
   width: 2rem;
 }
 
-@media (max-width: 767px) {
-  card {
-    margin-bottom: 1rem;
-  }
+.card {
+  margin-bottom: 1rem;
 }
 
 /* ENTREVISTAS */
@@ -391,6 +389,13 @@ text-align: center;
 
 .button-container button:hover {
   background-color: #252325;
+}
+
+.button-container button a {
+  color: #252325;
+}
+
+.button-container button a:hover {
   color: #FFE900;
 }
 
@@ -444,6 +449,34 @@ text-align: center;
     font-size: 6.5rem;
   }
 }
+
+/* NOTAS */
+
+.etiqueta-violeta {
+  position: relative;
+  z-index: 2; 
+  display: table; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #9966CC;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 3;
+}
+
+h1 {
+  position: relative;
+  z-index: 1;
+  margin-top: -50px;
+}
+
+
 
 /* FUENTES */
 
